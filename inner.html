@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <nav class="header__navigation nav">
+      <img class="nav__logo" src="" width="160" height="65" alt="Логотип дизайн-студии Нёрдс">
+      <!-- navigation list -->
+      <ul class="nav-list site-list">
+        <li class="site-list__item"><a class="site-list__link" href="#">Студия</a></li>
+        <li class="site-list__item"><a class="site-list__link" href="#">Клиенты</a></li>
+        <li class="site-list__item site-list__item_active">Магазин</li>
+        <li class="site-list__item"><a class="site-list__link" href="#">Контакты</a></li>
+        <li class="site-list__item"><a class="site-list__link site-list__link_basket" href="#">Корзина</a></li>
+      </ul>
+    </nav>
+    <h1 class="header__title">Магазин готовых шаблонов</h1>
+  </header>
+
+  <!-- main -->
+  <main class="inner-main">
+
+    <!-- filter -->
+    <section class="filter">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+
+      <form class="filter__form" action="https://" method="post">
+
+        <!-- ПОТОМ ГРАМОТНО РАЗМЕТИТЬ БЛОК СО СТОИМОСТЬЮ -->
+        <fieldset class="filter__form-item">
+          <legend class="filter__form-title">Стоимость:</legend>
+        </fieldset>
+
+        <fieldset class="filter__form-item">
+          <legend class="filter__form-title">Сетка:</legend>
+
+          <ul class="filter__form-list grid-list">
+            <li class="filter__form-option">
+              <input class="filter__form-option-input grid-list__input" type="radio" name="radio-group" value="adaptive" id="adaptive-field" checked>
+              <label class="filter__form-option-label grid-list__label" for="adaptive-field">Адаптивная</label>
+            </li>
+            <li class="filter__form-option">
+              <input class="filter__form-option-input grid-list__input" type="radio" name="radio-group" value="fixed" id="fixed-field">
+              <label class="filter__form-option-label grid-list__label" for="fixed-field">Фиксированная</label>
+            </li>
+            <li class="filter__form-option">
+              <input class="filter__form-option-input grid-list__input" type="radio" name="radio-group" value="rubber" id="rubber-field">
+              <label class="filter__form-option-label grid-list__label" for="rubber-field">Резиновая</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="filter__form-item">
+          <legend class="filter__form-title">Особенности</legend>
+
+          <ul class="filter__form-list features-list">
+            <li class="filter__form-option">
+              <input class="filter__form-option-input features-list__input" type="checkbox" name="slider" id="slider-field" checked>
+              <label class="filter__form-option-label features-list__label" for="slider-field">Слайдер</label>
+            </li>
+            <li class="filter__form-option">
+              <input class="filter__form-option-input features-list__input" type="checkbox" name="features" id="features-field">
+              <label class="filter__form-option-label features-list__label" for="features-field">Блок преимуществ</label>
+            </li>
+            <li class="filter__form-option">
+              <input class="filter__form-option-input features-list__input" type="checkbox" name="news" id="news-field" checked>
+              <label class="filter__form-option-label features-list__label" for="news-field">Новости</label>
+            </li>
+            <li class="filter__form-option">
+              <input class="filter__form-option-input features-list__input" type="checkbox" name="gallery" id="gallery-field">
+              <label class="filter__form-option-label features-list__label" for="gallery-field">Галерея</label>
+            </li>
+            <li class="filter__form-option">
+              <input class="filter__form-option-input features-list__input" type="checkbox" name="cart" id="cart-field">
+              <label class="filter__form-option-label features-list__label" for="cart-field">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button class="filter__form-button link" type="submit">Показать</button>
+      </form> <!-- end form -->
+    </section> <!-- end filter -->
+
+    <!-- catalog -->
+    <section class="catalog">
+      <h2 class="visually-hidden">Каталог с готовыми шаблонами</h2>
+
+      <div class="catalog__sorting sorting">
+        <span class="sorting__title">Сортировать</span>
+
+        <ul class="sorting__list">
+          <li class="sorting__item"><a class="sorting__link sorting__link_active" href="#">По цене</a></li>
+          <li class="sorting__item"><a class="sorting__link" href="#">По типу</a></li>
+          <li class="sorting__item"><a class="sorting__link" href="#">По названию</a></li>
+          <li class="sorting__item"><a class="sorting__link sorting__link_down" href="#" aria-label="По убыванию цены"></a></li>
+          <li class="sorting__item"><a class="sorting__link sorting__link_up" href="#" aria-label="По возрастанию цены"></a></li>
+        </ul>
+      </div> <!-- end sorting -->
+
+      <ul class="catalog__list">
+        <li class="catalog__item" tabindex="0">
+          <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Sedona">
+        </li>
+        <li class="catalog__item" tabindex="0">
+          <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Pink">
+        </li>
+        <li class="catalog__item" tabindex="0">
+          <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Barbershop Borodinsky">
+        </li>
+        <li class="catalog__item" tabindex="0">
+          <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Mishka">
+        </li>
+        <li class="catalog__item" tabindex="0">
+          <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона A+">
+        </li>
+        <li class="catalog__item" tabindex="0">
+          <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Кваст">
+        </li>
+      </ul>
+    </section> <!-- end catalog -->
+
+    <ul class="pagination__list">
+      <li class="pagination__item pagnitanio__item_current"><a class="pagination__link pagination__link_current" href="#">1</a></li>
+      <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+      <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+      <li class="pagination__item"><a class="pagination__link" href="#">Следующая</a></li>
+    </ul> <!-- end pagination -->
+
+
+    <!-- NEW SECTION -->
+    <!-- location -->
+    <section class="location">
+      <h2 class="visually-hidden">Как о нас добраться</h2>
+
+      <img class="location__map" src="img/map.png" width="1440" height="416" alt="Карта с нашим местоположением. Город Санкт-Петербург, улица Большая Конюшенная, дом 19/8">
+
+      <!-- address -->
+      <address class="location__address address">
+        <h4 class="address__title">Nёrds design studio</h4>
+        <p class="address__text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <a class="address__text address_number" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+        <a class="address__link link" href="">Напишите нам</a>
+      </address> <!-- end address -->
+    </section> <!-- end location -->
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <!-- social -->
+    <ul class="footer__social-list social-list">
+      <li class="social-list__item"><a class="social-list__link social-list__link_vk" href="#" aria-label="В вконтакте"></a></li>
+      <li class="social-list__item"><a class="social-list__link social-list__link_fb" href="#" aria-label="Фейсбук"></a></li>
+      <li class="social-list__item"><a class="social-list__link social-list__link_i" href="#" aria-label="Инстаграм"></a></li>
+    </ul>
+    <!-- promo -->
+    <div class="footer__promo promo">
+      <p class="promo__text">Давайте дружить, это выгодно!</p>
+      <p class="promo__discount">Скидка 10% для друзей из социальных сетей</p>
+    </div>
+  </footer>
+
+  <!-- modal feedback -->
+  <section class="modal modal-feedback">
+    <h2 class="modal-feedback__title">Напишите нам</h2>
+    <!-- form -->
+    <form class="modal-feedback__form feedback-form" action="https://" method="post">
+      <label class="feedback-form__label" for="name-field">Ваше имя:</label>
+      <input class="feedback-form__input" type="text" name="name" id="name-field" placeholder="Имя Фамилия">
+
+      <label class="feedback-form__label" for="email-field">Ваш e-mail:</label>
+      <input class="feedback-form__input" type="text" name="email" id="email-field" placeholder="email@example.com">
+
+      <label class="feedback-form__label" for="letter-field">Текст письма:</label>
+      <textarea class="feedback-form__area" name="letter-area" id="letter-field">В свободной форме</textarea>
+
+      <button class="feedback-form__button link" type="submit">Отправить</button>
+      <button class="feedback-form__button-close" aria-label="Закрыть форму обратной связи"></button>
+    </form>
+  </section>
+</body>
+</html>
