@@ -109,21 +109,51 @@
       <ul class="catalog__list">
         <li class="catalog__item" tabindex="0">
           <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Sedona">
+          <div class="catalog__action action">
+            <h3 class="action__title">Sedona</h3>
+            <p class="action__text">Информационный сайт для туристов</p>
+            <a class="action__price button" href="#">9 900 руб.</a>
+          </div>
         </li>
         <li class="catalog__item" tabindex="0">
           <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Pink">
+          <div class="catalog__action action">
+          </div>
+          <h3 class="action__title">Pink App</h3>
+          <p class="action__text">Продуктовый лендинг приложения для IOS и Android</p>
+          <a class="action__price button" href="#">9 900 руб.</a>
         </li>
         <li class="catalog__item" tabindex="0">
           <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Barbershop Borodinsky">
+          <div class="catalog__action action">
+            <h3 class="action__title">Barbershop</h3>
+            <p class="action__text">Сайт салона красоты. Для мужчин, да.</p>
+            <a class="action__price button" href="#">9 900 руб.</a>
+          </div>
         </li>
         <li class="catalog__item" tabindex="0">
           <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Mishka">
+          <div class="catalog__action action">
+            <h3 class="action__title">Mishka</h3>
+            <p class="action__text">Интернет-магазин вязаных игрушек</p>
+            <a class="action__price button" href="#">9 900 руб.</a>
+          </div>
         </li>
         <li class="catalog__item" tabindex="0">
           <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона A+">
+          <div class="catalog__action action">
+            <h3 class="action__title">A Plus</h3>
+            <p class="action__text">Лендинги курсов повышения квалификации</p>
+            <a class="action__price button" href="#">9 900 руб.</a>
+          </div>
         </li>
         <li class="catalog__item" tabindex="0">
           <img class="catalog__image" src="" width="360" height="576" alt="Изображение шаблона Кваст">
+          <div class="catalog__action action">
+            <h3 class="action__title">Кваст</h3>
+            <p class="action__text">Промо-сайт производителя крафтового кваса</p>
+            <a class="action__price button" href="#">9 900 руб.</a>
+          </div>
         </li>
       </ul>
     </section> <!-- end catalog -->
@@ -148,7 +178,7 @@
         <h4 class="address__title">Nёrds design studio</h4>
         <p class="address__text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <a class="address__text address_number" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
-        <a class="address__link link" href="">Напишите нам</a>
+        <a class="address__link button" href="">Напишите нам</a>
       </address> <!-- end address -->
     </section> <!-- end location -->
   </main>
@@ -182,8 +212,10 @@
       <label class="feedback-form__label" for="letter-field">Текст письма:</label>
       <textarea class="feedback-form__area" name="letter-area" id="letter-field">В свободной форме</textarea>
 
-      <button class="feedback-form__button link" type="submit">Отправить</button>
-      <button class="feedback-form__button-close" aria-label="Закрыть форму обратной связи"></button>
+      <button class="feedback-form__button button" type="submit">Отправить</button>
+      <button class="feedback-form__button-close">
+        <span class="visually-hidden">Закрыть форму обратной связи</span>
+      </button>
     </form>
   </section>
 </body>
