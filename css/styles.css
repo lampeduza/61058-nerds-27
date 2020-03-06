@@ -371,10 +371,22 @@ a { text-decoration: none; }
 /* social */
 .social-list {
   list-style: none;
+  display: flex;
 }
 
 .social-list__link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79px;
+  height: 79px;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.social-list__item:last-child .social-list__link {
+  margin-right: 0;
 }
 
 
