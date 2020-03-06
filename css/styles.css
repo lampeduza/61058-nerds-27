@@ -52,7 +52,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -92,7 +92,16 @@ a { text-decoration: none; }
   text-align: center;
 }
 
+.header__navigation-link {
+  width: 160px;
+  height: 65px;
+}
+
 /* navigation */
+.nav__logo {
+  width: 160px;
+  height: 65px;
+}
 .nav-list {
   list-style: none;
 }
@@ -178,6 +187,11 @@ a { text-decoration: none; }
 
 .table__data {
   line-height: 18px;
+}
+
+/* brands */
+.brands__list {
+  list-style: none;
 }
 
 .promo__text {
