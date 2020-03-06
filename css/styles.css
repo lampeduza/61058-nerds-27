@@ -1,0 +1,271 @@
+/* Roboto Regular */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+       url("../fonts/web/roboto.woff2") format("woff2"),
+       url("../fonts/web/roboto.woff") format("woff");
+}
+
+/* Roboto Medium */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+       url("../fonts/web/robotomedium.woff2") format("woff2"),
+       url("../fonts/web/robotomedium.woff") format("woff");
+}
+
+/* Roboto Bold */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+       url("../fonts/web/robotobold.woff2") format("woff2"),
+       url("../fonts/web/robotobold.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { box-sizing: inherit; }
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  /* временно */
+  margin: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a { text-decoration: none; }
+
+.button {
+  display: block;
+  line-height: 18px;
+  color: #fff;
+  background-color: #fb565a;
+  text-align: center;
+  padding: 16px 10px;
+  text-transform: uppercase;
+}
+
+/* navigation */
+.nav-list {
+  list-style: none;
+}
+
+.site-list__link {
+  display: block;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* slider */
+.slider__controls-list,
+.slider__list {
+  list-style: none;
+}
+
+.slider__title {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000;
+  font-weight: 500;
+}
+
+.slider__link {
+  background-color: #fb565a;
+  width: 240px;
+}
+
+/* offers */
+.offers__list {
+  list-style: none;
+}
+
+.offers__title {
+  line-height: 30px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.offers__link {
+  width: 160px;
+}
+
+.offers__link_green {
+  background-color: #00ca74;
+}
+
+.offers__link_yellow {
+  background-color: #efc84a;
+}
+
+.about-us__promo {
+  font-size: 45px;
+  line-height: 45px;
+  color: #000;
+  font-weight: 500;
+}
+
+.work__title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.work__list {
+  list-style: none;
+  padding-left: 36px;
+}
+
+.table__title {
+  color: #000;
+  font-weight: 700;
+}
+
+.table__head {
+  font-size: 45px;
+  line-height: 10px;
+  color: #000;
+  font-weight: 700;
+}
+
+.table__data {
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.promo__text {
+  font-weight: 700;
+  color: #000;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo__discount {
+  font-weight: 400;
+  color: #444444;
+  line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+/* feedback form */
+.feedback-form__button {
+  width: 260px;
+  font-style: normal;
+  font-size: inherit;
+  line-height: 18px;
+  border: none;
+}
+
+/* address */
+.address__title {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.address__text {
+  line-height: 18px;
+  color: #666666;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.address__link {
+  width: 219px;
+  font-style: normal;
+}
+
+/* modal feedback */
+.modal-feedback__title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000;
+}
+
+.feedback-form__label {
+  line-height: 18px;
+  color: #000;
+  font-weight: 700;
+  display: block;
+}
+
+.feedback-form__input {
+  display: block;
+  width: 360px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 18px;
+  border: 2px solid #d7dcde;
+  color: rgba(68, 68, 68, 0.5);
+  padding: 14px 16px;
+}
+
+.feedback-form__area {
+  color: rgba(68, 68, 68, 0.5);
+  width: 760px;
+  height: 118px;
+  border: 2px solid #d7dcde;
+  padding: 14px 15px 0 15px;
+  font-size: inherit;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.feedback-form__input::placeholder {
+  color: rgba(68, 68, 68, 0.5);
+}
+
+/* filter */
+.filter__form-button {
+  border: none;
+  font-size: inherit;
+  font-weight: 500;
+  width: 260px;
+  background-color: #eeeeee;
+  color: #000;
+}
+
+
+
+
+
+
+
+
