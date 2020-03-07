@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
   <!-- header -->
-  <header class="header">
+  <header class="header container">
     <nav class="header__navigation nav">
       <a class="header__navigation-link" href="index.html">
         <img class="nav__logo" src="img/logo.svg" width="160" height="65" alt="Логотип дизайн-студии Нёрдс">
@@ -215,11 +215,16 @@
     <h2 class="modal-feedback__title">Напишите нам</h2>
     <!-- form -->
     <form class="modal-feedback__form feedback-form" action="https://" method="post">
-      <label class="feedback-form__label" for="name-field">Ваше имя:</label>
-      <input class="feedback-form__input" type="text" name="name" id="name-field" placeholder="Имя Фамилия">
-
-      <label class="feedback-form__label" for="email-field">Ваш e-mail:</label>
-      <input class="feedback-form__input" type="text" name="email" id="email-field" placeholder="email@example.com">
+      <div class="feedback-form__row">
+        <div class="feedback-form__col">
+          <label class="feedback-form__label" for="name-field">Ваше имя:</label>
+          <input class="feedback-form__input" type="text" name="name" id="name-field" placeholder="Имя Фамилия">
+        </div>
+        <div class="feedback-form__col">
+          <label class="feedback-form__label" for="email-field">Ваш e-mail:</label>
+          <input class="feedback-form__input" type="text" name="email" id="email-field" placeholder="email@example.com">
+        </div>
+      </div>
 
       <label class="feedback-form__label" for="letter-field">Текст письма:</label>
       <textarea class="feedback-form__area" name="letter-area" id="letter-field">В свободной форме</textarea>
